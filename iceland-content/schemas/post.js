@@ -41,6 +41,11 @@ export default {
       title: 'Second body',
       type: 'blockContent',
     },
+    {
+      name: 'thirdBody',
+      title: 'Third body',
+      type: 'blockContent',
+    },
   ],
 
   preview: {

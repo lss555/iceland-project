@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 
-import sanityClient from "../../client.js";import { HomeContainer, BackgroundContainer, HomeTextContainer, FirstHalfHeader, SecondHalfHeader, HomeTextOne, HomeSmallTextContainer, HomeTextTwo } from './home-styles.js';
+import sanityClient from "../../client.js";
+import { HomeContainer, BackgroundContainer, HomeTextContainer, FirstHalfHeader, SecondHalfHeader, HomeTextOne, HomeSmallTextContainer, HomeTextTwo } from './home-styles.js';
 import homeBg from '../assets/homeBg.jpg';
 import BlockContent from "@sanity/block-content-to-react";
 
@@ -34,7 +35,9 @@ const Home = () => {
 			<BackgroundContainer src={homeBg}></BackgroundContainer>
 			<HomeTextContainer>
 				<HomeSmallTextContainer>
-						<HomeTextOne><BlockContent blocks={contentData.body}></BlockContent></HomeTextOne>
+						<HomeTextOne>
+							<BlockContent blocks={contentData.body}></BlockContent>
+						</HomeTextOne>
 						<HomeTextTwo><BlockContent blocks={contentData.secondBody}></BlockContent></HomeTextTwo>
 					</HomeSmallTextContainer>
 				<FirstHalfHeader>Ice</FirstHalfHeader>

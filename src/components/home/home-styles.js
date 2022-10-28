@@ -16,16 +16,23 @@ export const BackgroundContainer = styled.img`
 export const HomeTextContainer = styled.div`
 	position: absolute;
 	display: flex;
-	width: 81.1vw;
+	width: 100%;
 	height: 569.01px;
 	object-fit: cover;
 	top: 1rem;
+	left: 9.5%;
 	display: flex;
 	margin-right: auto;
 	margin-left: auto;
 	justify-content: center;
 	text-align: center;
 	align-items: center;
+	@media screen and (max-width: 1500px) {
+    	left: 0;
+  }
+  @media screen and (max-width: 1930px) {
+    	left: 0;
+  }
 `;
 
 export const FirstHalfHeader = styled.h1`
@@ -44,14 +51,17 @@ export const FirstHalfHeader = styled.h1`
 	text-transform: uppercase;
 	color: #EEEEEE;
 	@media screen and (max-width: 1778px) {
-    	left: 3rem;
+    	left: 4rem;
     	font-size: 200px;
+  }
+  @media screen and (max-width: 1500px) {
+    	left: 0;
   }
 `;
 
 export const SecondHalfHeader = styled.h1`
 	position: absolute;
-	width: 814px;
+	width: auto;
 	height: 369px;
 	left: 925px;
 	top: 319.01px;
@@ -65,9 +75,12 @@ export const SecondHalfHeader = styled.h1`
 	text-transform: uppercase;
 	color: #EEEEEE;
 	@media screen and (max-width: 1778px) {
-    	left: 40rem;
+    	left: 48rem;
     	font-size: 200px;
     	top: 23rem;
+  }
+  @media screen and (max-width: 1500px) {
+    	left: 44rem;
   }
 `;
 
@@ -80,6 +93,9 @@ export const HomeSmallTextContainer = styled.div`
 	@media screen and (max-width: 1778px) {
     	left: 29rem;
     	top: 21rem;
+  }
+  @media screen and (max-width: 1500px) {
+    	left: 25rem;
   }
 `;
 
