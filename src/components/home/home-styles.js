@@ -19,7 +19,7 @@ export const HomeTextContainer = styled.div`
 	width: 100%;
 	height: 569.01px;
 	object-fit: cover;
-	top: 1rem;
+	top: 0;
 	left: 9.5%;
 	display: flex;
 	margin-right: auto;
@@ -40,7 +40,7 @@ export const FirstHalfHeader = styled.h1`
 	width: 453px;
 	height: 369px;
 	left: 182px;
-	top: 119px;
+	top: 10vh;
 	z-index: 2;
 	font-family: 'Clash Display';
 	font-style: normal;

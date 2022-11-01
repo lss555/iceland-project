@@ -11,7 +11,7 @@ export const GalleryHeader = styled.h1`
 	width: 680px;
 	height: 179px;
 	left: 120px;
-	top: 1280px;
+	top: 105vh;
 	font-family: 'Clash Display';
 	font-style: normal;
 	font-weight: 400;
@@ -29,7 +29,7 @@ export const GalleryHeader = styled.h1`
 export const GalleryTextContainer = styled.div`
 	
 	@media screen and (max-width: 2000px) {
-    	left: 1rem;
+    	
   }
 `;
 
@@ -38,7 +38,7 @@ export const GallerySmallTextOne = styled.div`
 	width: 280px;
 	height: 45px;
 	left: 120px;
-	top: 100rem;
+	top: 135vh;
 	font-family: 'HelveticaNeueCyr';
 	font-style: normal;
 	font-weight: 300;
@@ -59,7 +59,7 @@ export const GallerySmallTextTwo = styled.div`
 	width: 280px;
 	height: 105px;
 	left: 120px;
-	top: 103rem;
+	top: 140vh;
 	font-family: 'HelveticaNeueCyr';
 	font-style: normal;
 	font-weight: 300;
@@ -80,7 +80,7 @@ export const GallerySmallTextThree = styled.div`
 	width: 300px;
 	height: 165px;
 	left: 420px;
-	top: 100rem;
+	top: 135vh;
 	font-family: 'HelveticaNeueCyr';
 	font-style: normal;
 	font-weight: 300;
@@ -106,7 +106,7 @@ export const GalleryCardsContainer = styled.div`
 	flex-direction: row;
 	margin-left: 60rem;
 	width: 100%;
-	height: 800px;
+	height: 60vh;
 	@media screen and (max-width: 2000px) {
     	margin-left: auto;
     	width: 50%;
@@ -120,8 +120,8 @@ export const GalleryCard = styled.img`
 	box-sizing: border-box;
 	left: 60rem;
 	width: 530px;
-	height: 800px;
-	top: 200px;
+	height: 60vh;
+	top: 10vh;
 	border: 0.795918px solid #151515;
 	filter: drop-shadow(10px 10px 25px rgba(0, 0, 0, 0.25));
 	border-radius: 5px;
@@ -135,9 +135,9 @@ export const GalleryCard = styled.img`
 export const IndividualCardCotnainer = styled.div`
 	display: flex;
 	position: relative;
-	height: 800px;
+	height: 60vh;
 	z-index: 3;
-	top: 200px;
+	top: 15vh;
 	justify-content: flex-start;
 	align-items: flex-end;
 	text-align: flex-end;
@@ -152,10 +152,10 @@ export const IndividualCardCotnainer2 = styled.div`
 	display: flex;
 	justify-content: center;
 	position: relative;
-	height: 800px;
+	height: 60vh;
 	margin-left: ;
 	z-index: 2;
-	top: 200px;
+	top: 15vh;
 	margin-left: -322px;
 	justify-content: flex-start;
 	align-items: flex-end;
@@ -169,8 +169,8 @@ export const IndividualCardCotnainer2 = styled.div`
 export const IndividualCardCotnainer3 = styled.div`
 	display: flex;
 	position: relative;
-	height: 800px;
-	top: 200px;
+	height: 60vh;
+	top: 15vh;
 	margin-left: -322px;
 	z-index: 1;
 	width: 530px;
